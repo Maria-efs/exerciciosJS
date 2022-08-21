@@ -13,17 +13,39 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    gap: 15px;
 }
 
 h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20%;
 }
 
 .exercicios{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
+}
+
+.exercicio1,
+.exercicio2,
+.exercicio3,
+.exercicio4,
+.exercicio6 {
+    width: 80px;
+    height: 40px;
+    border: 3px solid black;
+    border-image: linear-gradient(45deg,red,blue) 10;
+    text-align: center;
+}
+
+.exercicio5{
+    width: 75px;
+    height: 40px;
+    border: 3px solid black;
+    border-image: linear-gradient(45deg,red,blue) 10;
+    text-align: center;
 }

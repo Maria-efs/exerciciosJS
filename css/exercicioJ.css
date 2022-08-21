@@ -6,8 +6,10 @@
 
 body{
     display: flex;
-    flex-direction: column;
+    width: 100vw;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
@@ -15,13 +17,41 @@ a{
     color: black;
 }
 
-div{
+.container{
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(199,25,25,1) 35%, rgba(214,6,6,1) 77%, rgba(255,0,0,1) 100%);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+    justify-content: center;
+    border: 1px solid black;
+    gap: 15px;
+}
+
+.resultado {
+    text-align: center;
+    height: 100px;
+    width: 180px;
+    border: 1px solid black;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 }
-input{
-    width: 17%;
+
+input {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
 }
