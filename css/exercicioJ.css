@@ -54,3 +54,6 @@ button{
     height: 30px;
     border-radius: 25px;
 }
+.link:hover{
+    text-decoration: underline;
+}

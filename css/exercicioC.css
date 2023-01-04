@@ -23,7 +23,7 @@ a{
     flex-direction: column;
     align-items: center;
     border-radius: 25px;
-    height: 350px;
+    height: 450px;
     width: 300px;
     justify-content: center;
     border: 1px solid black;
@@ -42,10 +42,10 @@ a{
 
 input {
     border: 1px solid black;
-    padding: 3px;
+    padding: 5px;
     border-radius: 10px;
     width: 200px;
-    height: 30px;
+    height: 35px;
     text-align: center;
 }
 
@@ -53,4 +53,7 @@ button{
     width: 80px;
     height: 30px;
     border-radius: 25px;
+}
+.link:hover{
+    text-decoration: underline;
 }

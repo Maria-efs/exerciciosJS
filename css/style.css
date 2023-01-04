@@ -34,18 +34,12 @@ h1{
 .exercicio2,
 .exercicio3,
 .exercicio4,
+.exercicio5,
 .exercicio6 {
     width: 80px;
-    height: 40px;
+    height: 50px;
     border: 3px solid black;
     border-image: linear-gradient(45deg,red,blue) 10;
     text-align: center;
-}
-
-.exercicio5{
-    width: 75px;
-    height: 40px;
-    border: 3px solid black;
-    border-image: linear-gradient(45deg,red,blue) 10;
-    text-align: center;
+    padding: 5px;
 }
